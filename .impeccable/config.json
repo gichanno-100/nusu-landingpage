@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "radial-halo",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-30T14:33:19.567Z",
+        "reason": "Claude: the radial gradient draws the hero's thermal-camera leak-detection image (domain illustration), not a decorative glow"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-30T14:41:50.273Z",
+        "reason": "Claude: static-only finding; rendered-page detect on localhost reports no cramped-padding, and bordered containers all have 14px+ insets"
+      }
+    ]
+  }
+}
